@@ -1,0 +1,24 @@
+class Result extends Student
+{
+    int total;
+    Result(int x,int y)
+    {
+        super(x,y);
+        total=0;
+    }
+    void calculate()
+    {
+        total=phy+chem;
+    }
+    void display()
+    {
+        super.display();
+        System.out.println(total);
+    }
+    public void main()
+    {
+        Result r=new Result(88,90);
+        r.calculate();
+        r.display();
+    }
+}
