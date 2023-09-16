@@ -1,0 +1,13 @@
+class Student
+{
+    int phy,chem;
+    Student(int m,int n)
+    {
+        phy=m;
+        chem=n;
+    }
+    void display()
+    {
+        System.out.println("Marks in Physics and Chemistry are "+phy+" ,"+chem);
+    }
+}
